@@ -16,6 +16,7 @@ install("uniConSigV1.3")<br>
 library(uniConSigV1.3)<br>
 
 Remember to change "Path_to_Rmodule" to the path where you put the folder "uniConSigV1.3" (the folder that contains "uniConSigV1.3"). <br> 
+
 1.3 Test run<br>
 The training gene set and the concept database used in our paper are included in the package. The test run can be performed simply using the following code:<br>
 
