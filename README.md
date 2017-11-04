@@ -1,33 +1,23 @@
 # uniConSig_and_CSEA
-development of uniConSig and CSEA algorithm
+development of uniConSig and CSEA algorithm<br>
 
-1. Installation of uniConSig in R
-
-1.1 Install development tools for local package installations
-
-UniConSig has been implemented in an R package. Currently it can only be installed by local package installation. To do local package installation in R, you need to install the package "devtools" first. The following R codes can be directly pasted into R for the installation:
-
+1. Installation of uniConSig in R<br>
+1.1 Install development tools for local package installations<br>
+UniConSig has been implemented in an R package. Currently it can only be installed by local package installation. To do local package installation in R, you need to install the package "devtools" first. The following R codes can be directly pasted into R for the installation:<br>
 
 install.packages("devtools")<br>
-library("devtools")
+library("devtools")<br>
 
+1.2 Install uniConSig package in R<br>
+After installing "devtools", the following R codes can be directly pasted into R console for uniConSig's installation:<br>
 
-1.2 Install uniConSig package in R
+setwd("Path_to_Rmodule\\R_module_construction")<br>
+install("uniConSigV1.3")<br>
+library(uniConSigV1.3)<br>
 
-After installing "devtools", the following R codes can be directly pasted into R console for uniConSig's installation:
+1.3 Test run<br>
+The training gene set and the concept database used in our paper are included in the package. The test run can be performed simply using the following code:<br>
 
+uniConSig(geneListFile="./uniConSigV1.3/tests/CancerGene_CGC20150525.db",output.file="test1")<br>
 
-setwd("Path_to_Rmodule\\R_module_construction")
-install("uniConSigV1.3")
-library(uniConSigV1.3)
-
-
-1.3 Test run
-
-The training gene set and the concept database used in our paper are included in the package. The test run can be performed simply using the following code:
-
-
-uniConSig(geneListFile="./uniConSigV1.3/tests/CancerGene_CGC20150525.db",output.file="test1")
-
-
-For details of the other options, please view the results of typing ?uniConSig in R.
+For details of the other options, please view the results of typing ?uniConSig in R.<br>
