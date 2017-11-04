@@ -1,0 +1,7 @@
+install.packages("devtools")
+library("devtools")
+
+setwd("Path_to_Rmodule\\R_module_construction")
+install("uniConSigV1.3")
+library(uniConSigV1.3)
+?uniConSig

@@ -1,0 +1,9 @@
+Package: uniConSigV1.3
+Type: Package
+Title: calculation of uniConSig scores, build concept database
+Version: 1.0
+Date: 2017-09-13
+Author: Patil, Xu Chi
+Maintainer: Xu Chi <xuc13@pitt.edu>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
