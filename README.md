@@ -22,4 +22,4 @@ The training gene set and the concept database used in our paper are included in
 
 uniConSig(geneListFile="./uniConSigV1.3/tests/CancerGene_CGC20150525.db",output.file="test1")<br>
 
-For details of the other options, please view the results of typing ?uniConSig in R.<br>
+For details of the other options, please type ?uniConSig in R.<br>
