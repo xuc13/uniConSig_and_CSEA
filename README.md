@@ -8,7 +8,7 @@ development of uniConSig and CSEA algorithm
 UniConSig has been implemented in an R package. Currently it can only be installed by local package installation. To do local package installation in R, you need to install the package "devtools" first. The following R codes can be directly pasted into R for the installation:
 
 
-install.packages("devtools")
+install.packages("devtools")<br>
 library("devtools")
 
 
