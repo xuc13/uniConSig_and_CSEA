@@ -1,4 +1,5 @@
 # uniConSig_and_CSEA
+This code of uniConSig is for research use only<br>
 development of uniConSig and CSEA algorithm<br>
 
 1. Installation of uniConSig in R<br>
