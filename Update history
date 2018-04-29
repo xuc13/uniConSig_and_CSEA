@@ -1,0 +1,9 @@
+Update history:
+
+04/29/2018 uniConSig version 2.0
+1. New function: uniConSig.preCal Change of the calculation strategy avoids the repeated calculation of penalization 
+   factors and Effective Concept Number, which reduces the calculation time to less than 2 minutes(using Perl version).
+   This new function will take the concept matrix as input, and output a file containing the required factors for each gene.
+2. Change of function: uniConSig.main This function will substitute the previous function "uniConSig". This function
+   will take use of the factors calculated by "uniConSig.preCal" and the input gene list to calculate uniConSig scores.
+3. New files: will include the perl scripts.
